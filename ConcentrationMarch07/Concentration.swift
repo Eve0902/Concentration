@@ -11,8 +11,7 @@ class Concentration
 {
     var cards = [Card]()
     var indexOfTheOnlyFaceUpCard : Int?
-    
- 
+
     
     func chooseCard(at index: Int){
         if !cards[index].isMatched{
